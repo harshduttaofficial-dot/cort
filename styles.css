@@ -33,10 +33,10 @@
 .floating-note{animation:float 6s ease-in-out infinite}
 .note-top{top:8%;left:auto;right:7%}
 .note-bottom{right:7%;bottom:14%;animation-delay:-3s}
-.image-caption{left:7.5%;right:auto;bottom:25px;z-index:3}
+.image-caption{left:7.5%;right:auto;bottom:58px;z-index:3}
 .hero-scroll{left:7.5%;bottom:25px;z-index:3}
 @keyframes hero-city-pan{from{transform:scale(1.035) translate3d(0,0,0)}to{transform:scale(1.095) translate3d(-.65%,-.35%,0)}}
 @media(max-width:1000px){.hero-copy{left:6%;width:min(600px,64%)}.hero h1{font-size:clamp(48px,7.4vw,72px)}.note-top{right:5%}.note-bottom{right:5%}}
-@media(max-width:720px){.hero{height:calc(100vh - 104px);height:calc(100svh - 104px);min-height:650px}.hero-copy{top:45%;left:6%;width:88%;transform:translateY(-45%)}.hero h1{font-size:clamp(43px,11.5vw,66px)}.hero-lede{max-width:360px;font-size:13px}.hero-proof{margin-top:28px}.hero-image-wrap img{object-position:53% center}.hero-image-wrap:after{background:linear-gradient(90deg,rgba(10,13,24,.83),rgba(10,13,24,.53) 68%,rgba(10,13,24,.34)),linear-gradient(0deg,rgba(10,13,24,.55),transparent 48%)}.note-top{top:4%;right:5%}.note-bottom{right:5%;bottom:10%}.image-caption{left:6%;bottom:17px}.hero-scroll{left:6%;bottom:17px}}
+@media(max-width:720px){.hero{height:calc(100vh - 104px);height:calc(100svh - 104px);min-height:650px}.hero-copy{top:45%;left:6%;width:88%;transform:translateY(-45%)}.hero h1{font-size:clamp(43px,11.5vw,66px)}.hero-lede{max-width:360px;font-size:13px}.hero-proof{margin-top:28px}.hero-image-wrap img{object-position:53% center}.hero-image-wrap:after{background:linear-gradient(90deg,rgba(10,13,24,.83),rgba(10,13,24,.53) 68%,rgba(10,13,24,.34)),linear-gradient(0deg,rgba(10,13,24,.55),transparent 48%)}.note-top{top:4%;right:5%}.note-bottom{right:5%;bottom:10%}.image-caption{left:6%;bottom:53px}.hero-scroll{left:6%;bottom:17px}}
 @media(max-width:460px){.hero h1{font-size:clamp(42px,11vw,55px)}.hero-actions{gap:17px}.hero-actions .button{padding:13px 16px;gap:15px}.text-link{font-size:10px}.floating-note{padding:9px 11px}.note-top{top:3%}.note-bottom{bottom:9%}.hero-proof{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.hero-image-wrap img{animation:none;transform:none}}
